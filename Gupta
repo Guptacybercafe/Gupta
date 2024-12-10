@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gupta Cyber Cafe - Your One-Stop Cyber Destination">
+    <title>Gupta Cyber Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        .content {
+            padding: 20px;
+        }
+        .service-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Gupta Cyber Cafe</h1>
+    <p>Your One-Stop Cyber Destination</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="content" id="home">
+    <h2>Welcome to Gupta Cyber Cafe</h2>
+    <p>At Gupta Cyber Cafe, we provide fast and reliable internet access, as well as a variety of computer services for all your needs. Whether you need to surf the web, print documents, or use specialized software, we have you covered!</p>
+</div>
+
+<div class="content" id="about">
+    <h2>About Us</h2>
+    <p>Gupta Cyber Cafe was established to offer an affordable and high-quality internet experience for people from all walks of life. Our mission is to provide easy access to technology, ensuring that everyone can stay connected, work, and learn at any time.</p>
+</div>
+
+<div class="content" id="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+        <h3>Internet Access</h3>
+        <p>High-speed internet available for browsing, social media, research, and more.</p>
+    </div>
+    <div class="service-box">
+        <h3>Printing & Scanning</h3>
+        <p>Get your documents printed or scanned with ease. We offer black and white, as well as color printing services.</p>
+    </div>
+    <div class="service-box">
+        <h3>Computer Rentals</h3>
+        <p>Need a computer? Rent one by the hour with access to all necessary applications and software.</p>
+    </div>
+    <div class="service-box">
+        <h3>Photo Editing</h3>
+        <p>Use professional photo editing software to enhance your images for any project.</p>
+    </div>
+</div>
+
+<div class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to know more about our services, feel free to reach out:</p>
+    <p><strong>Email:</strong> yogeshguots786786@gmail.com</p>
+    <p><strong>Phone:</strong> +91 9086703813 </p>
+    <p><strong>Address:</strong> Rehari colony Jammu </p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Gupta Cyber Cafe. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
